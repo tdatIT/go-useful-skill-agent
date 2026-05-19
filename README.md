@@ -4,23 +4,6 @@ Collection of AI agent skills for Go development.
 
 ## Quick Start
 
-### Import & Use Skills
-
-#### Skill Import
-
-With **Claude**, you can import skills from various locations:
-
-| Location | Path                                     | Applies to              |
-| -------- | ---------------------------------------- | ----------------------- |
-| Personal | `~/.claude/skills/<skill-name>/SKILL.md` | All your projects       |
-| Project  | `.claude/skills/<skill-name>/SKILL.md`   | This project only       |
-| Plugin   | `<plugin>/skills/<skill-name>/SKILL.md`  | Where plugin is enabled |
-
-With **Github Copilot**, you can import skills from your repository or a public repository:
-
-- Project skills, stored in your repository (.github/skills, .claude/skills, or .agents/skills)
-- Personal skills, stored in your home directory and shared across projects (~/.copilot/skills, ~/.claude/skills, or ~/.agents/skills)
-
 ### Install This Skill
 
 Install this skill collection from GitHub using the `skills` CLI:
@@ -29,9 +12,7 @@ Install this skill collection from GitHub using the `skills` CLI:
 npx skills add tdatIT/go-useful-skill-agent
 ```
 
-The command registers the skills in your local agent environment so you can invoke them by name.
-
-#### Skill Usage
+### Skill Usage
 
 Inject skill by prompting your AI agent with the skill name and context of your task. For example:
 
