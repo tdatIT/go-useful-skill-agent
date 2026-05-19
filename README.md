@@ -32,7 +32,9 @@ Use the writing-tests-go-projects to add unit tests for the new feature I just i
 | Go Context                 | Best practices for `context.Context`: signatures, derivation, cancellation, and value usage            | [`go-context/`](./go-context/)                                 |
 | Naming Convention (Go)     | Idiomatic naming rules for packages, types, functions, variables, constants, and receivers             | [`naming-convention/`](./naming-convention/)                   |
 | Go Style Core              | Core style principles: clarity, simplicity, gofmt, nesting, naked returns, and semicolons               | [`go-style-core/`](./go-style-core/)                           |
-| Go Linting                 | Linting setup and recommendations: `golangci-lint`, recommended linters, and CI integration examples     | [`go-linting/`](./go-linting/)                                 |
+| Go Linting                 | Linting setup and recommendations: `golangci-lint`, recommended linters, and CI integration examples     | [`go-linting/`](./go-linting/)
+| CQRS Architecture (Go)        | Implementing CQRS architecture in Go: project structure, interfaces, decorators, and application scope    | [`go-clean-cqrs-architecture/`](./go-clean-cqrs-architecture/)
+                        |
 
 ## References
 
