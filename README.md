@@ -21,6 +21,16 @@ With **Github Copilot**, you can import skills from your repository or a public 
 - Project skills, stored in your repository (.github/skills, .claude/skills, or .agents/skills)
 - Personal skills, stored in your home directory and shared across projects (~/.copilot/skills, ~/.claude/skills, or ~/.agents/skills)
 
+### Install This Skill
+
+Install this skill collection from GitHub using the `skills` CLI:
+
+```bash
+npx skills add tdatIT/go-useful-skill-agent
+```
+
+The command registers the skills in your local agent environment so you can invoke them by name.
+
 #### Skill Usage
 
 Inject skill by prompting your AI agent with the skill name and context of your task. For example:
