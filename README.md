@@ -31,6 +31,18 @@ Use the writing-tests-go-projects to add unit tests for the new feature I just i
 
 ## Available Skills
 
-| Skill              | Description                                                                                         | Location                                                     |
-| ------------------ | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
-| Writing Tests (Go) | Write and fix Go unit tests with table-driven tests, testify assertions, mocks, and coverage checks | [`writing-tests-go-projects/`](./writing-tests-go-projects/) |
+## Available Skills
+
+| Skill                      | Description                                                                                             | Location                                                        |
+| -------------------------- | ------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| Writing Tests (Go)         | Write and fix Go unit tests: table-driven tests, mocks, coverage checks                                 | [`writing-tests-go-projects/`](./writing-tests-go-projects/)   |
+| Writing Dockerfiles (Go)   | Create optimized multi-stage Dockerfiles for Go apps, static builds, and minimal runtime images         | [`writing-dockerfile/`](./writing-dockerfile/)                 |
+| Handle Logging (Go)        | Structured logging guidance: `slog`/`zap`, log levels, request logging, and what not to log             | [`handle-logging/`](./handle-logging/)                         |
+| Go Context                 | Best practices for `context.Context`: signatures, derivation, cancellation, and value usage            | [`go-context/`](./go-context/)                                 |
+| Naming Convention (Go)     | Idiomatic naming rules for packages, types, functions, variables, constants, and receivers             | [`naming-convention/`](./naming-convention/)                   |
+| Go Style Core              | Core style principles: clarity, simplicity, gofmt, nesting, naked returns, and semicolons               | [`go-style-core/`](./go-style-core/)                           |
+| Go Linting                 | Linting setup and recommendations: `golangci-lint`, recommended linters, and CI integration examples     | [`go-linting/`](./go-linting/)                                 |
+
+## References
+
+- External reference repo with additional Go skills and examples: https://github.com/cxuu/golang-skills
